@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papia Sweets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/203ccbde9d.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+<header class="header category food sweets drinks cakes" id="food sweets drinks">
+    <a href="index.html" class="logo  " >
+        <img src="img/log.png" alt="logo" >
+    </a>
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="#about">About</a>
+
+<button class="btn-sign"> Login</button>
+</nav>
+
+
+
+</header>
+ 
+<nav class="sidebar" >
+<ul class="indicator">
+    <li onclick="sortAndDisplay('food')">
+        <a id="a" href="#">
+            <i class="fas fa-solid fa-burger" id="fod"></i>
+            <span class="nav-item" id="fod">Food</span>
+        </a>
+        
+    </li>
+    <li onclick="sortAndDisplay('cakes')">
+        <a id="a"  href="#">
+            <i class="fas fa-solid fa-cake-candles" id="cak"></i>
+            <span class="nav-item" id="cak">Cakes</span>
+        </a>
+    </li>
+    <li onclick="sortAndDisplay('sweets')">
+        <a id="a"  href="#">
+            <i class="fas fa-solid fa-candy-cane" id="swe"></i>
+            <span class="nav-item" id="swe">Sweets</span>
+        </a>
+    </li>
+    <li onclick="sortAndDisplay('drinks')">
+        <a id="a"  href="#">
+            <i class="fas fa-solid fa-mug-hot" id="dri"></i>
+            <span class="nav-item" id="dri">Drinks</span>
+        </a>
+    </li>
+</ul>
+</nav>
+<section class="content-box" id="container">
+    <div class="card category food" id="food">
+        
+        <div class="card-image"> <img src="img/crysp.jfif" alt="cake" ></div>
+        <h2 class="h2">Crispy Chicken</h2>
+        <p class="par">Crispy Crunch, Flavor Punch </p>
+        
+        <button class="btn " data-target="#modal1" id="open">Recipe</button>
+<div  class="modal" id="modal1">
+    <div class="sus">
+<div class="title"> Crispy Chicken</div>
+<button class="btn modal-btn" data-target="#modal1" >&times;</button>
+    </div> 
+    <div class="center">
+    <h1>Ingredients</h1>
+    <ul>
+        <li>100g Flour</li>
+        <li>250g chicken breasts , boneless, skinless</li>
+        <li>4 eggs</li>
+        <li>300g cornflakes</li>
+    </ul>
+    <h2>Instructions</h2>
+<p>Cut the chicken breasts into four tenders each and soak them in a bowl with the buttermilk and hot sauce for 30 minutes.
+    Add the eggs to one bowl and the flour and spices to a second bowl.
+    Dip each piece of chicken from the buttermilk bowl to the flour mixture.
+    Dip it into the eggs then back into the flour mixture.
+    Shake excess flour gently off and put the chicken onto a baking sheet.
+    Repeat with all the pieces.
+    Heat the oil (three inches deep) in a dutch oven on medium high heat to 350 degrees.
+    Fry the chicken in small batches for 5-7 minutes or until golden brown.</p>
+</div>
+    
+</div>
+     </div>
+
+     <div class="card category food" id="food">
+        <div class="card-image"><img src="img/burger.jpg" alt="cake"></div>
+        <h2 class="h2">Burger</h2>
+        <p class="par">Savor the Moment, Bite by Bite</p>
+        <span class="tag"></span>
+        <button class="btn " data-target="#modal2" id="open">Recipe</button>
+        <div  class="modal" id="modal2">
+            <div class="sus">
+        <div class="title"> Burger</div>
+        <button class="btn modal-btn" data-target="#modal2" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>1 Ls olive oil</li>
+                <li>1 onion, peeled and finely chopped</li>
+                <li>500g  Beef</li>
+                <li>1 egg, beaten</li>
+                <li>4 slices mature Cheddar</li>
+                <li>4 white rolls</li>
+                <li>1 beef tomato, sliced</li>
+                <li>ketchup/any sauce you prefer</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Heat the olive oil in a frying pan, add the onion and cook for 5 minutes until softened and starting to turn golden
+            In a bowl, combine the beef mince with the herbs and the egg. Season, add the onions and mix well. Using your hands, shape into 4 patties.
+            Meanwhile, lightly toast the cut-sides of the buns on the barbecue. Fill with the lettuce, burgers and tomato slices. Serve with ketchup, if you like.
+        </p>
+
+        </div>
+            
+        </div> </div>
+        <div class="card category food" id="food">
+        <div class="card-image"><img src="img/lasagna.jfif" alt="cake"></div>
+        <h2 class="h2">Lasagna</h2>
+        <p class="par">Layered Love, Savory Bliss</p>
+        <button class="btn " data-target="#modal3" id="open">Recipe</button>
+        <div  class="modal" id="modal3">
+            <div class="sus">
+        <div class="title"> Lasagna</div>
+        <button class="btn modal-btn" data-target="#modal3" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>1kg minced beef meat</li>
+                <li>700 ml  milk</li>
+                <li>1l tomato puree</li>
+                <li>3/4 Ls Olive oil </li>
+                <li>2 carrots,2 onions, 2 bay-leaves</li>
+                <li>70g flour, 70g butter</li>
+                <li>200g grated mozzarella</li>
+                <li>100g grated parmesan</li>
+                <li>lasagna pasta sheets</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Put the onions carrots and garlic in a chaper saucepan and add  mince
+            Put =the oil in a saucepan and add the vegetables with a pinch of salt. Cook until soft then add the herbs and pepper .
+            Put the tomato paste and tomato puree along with 2 cups of water and salt to taste.
+            Let it boil for aprox 1hr on low heat .
+            For the bechamel sauce melt thebutter in a sauceoan , then add thr flour and cook a little bit.
+            Gradually stir in the milk and mix until it thickens.Add. spices and salt.
+            For assembles start with belognese sauce, lasagna
+sheets, bechamel then continue this way,and add parmesan betwen shets ,sprinkle the mozzarella on top .
+Bake in ovem at 180 °C for aprox 1h.
+        </p>
+        </div>
+            
+        </div>
+    </div>
+   
+    <div class="card category food" id="food">
+        <div class="card-image"><img src="img/PIZZA.jpg" alt="cake"></div>
+        <h2 class="h2">Pizza</h2>
+        <p class="par">You never get enough of it. </p>
+        <button class="btn " data-target="#modal4" id="open">Recipe</button>
+        <div  class="modal" id="modal4">
+            <div class="sus">
+        <div class="title"> Pizza</div>
+        <button class="btn modal-btn" data-target="#modal4" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>500g Flour</li>
+                <li>350ml Hot Water</li>
+                <li>25g Yeast</li>
+                <li>2 Ls Sugar</li>
+                <li>2 Ls Salt</li>
+                <li> 2 Bs Olive Oil</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p> First dissolve yeast in warm water , and also add the sugar , salt and oil in that bown with water.
+            Second put the flour in a bigger bowl and add the water mix on top, then start kneading for 20-30mins. 
+            If the pizza dough is elastic, then it is ready to put in the fridge for 24h.
+            In the next day take the dough out the fridge and let it 2hrs at room temperature.
+            After 2 hrs cut the dough in 4 pieces and start stretch it . Give it a round form ,add  tomato sauce , mozzarella and whatever you want for topping.
+            Add for 20mind at 250° and that is it . Enjoy your pizza.
+          
+            
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category sweets" id="sweets">
+        <div class="card-image"><img src="img/ginger.jpg" alt="cake"></div>
+        <h2 class="h2">Gingerbread</h2>
+        <p class="par"> Sweet traditions, spicy creations</p>
+        <button class="btn " data-target="#modal5" id="open">Recipe</button>
+        <div  class="modal" id="modal5">
+            <div class="sus">
+        <div class="title"> Gingerbread</div>
+        <button class="btn modal-btn" data-target="#modal5" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>400g Flour</li>
+                <li>170g Butter</li>
+                <li>100g Brown Sugar</li>
+                <li>1Bs Cinnamon</li>
+                <li>1Bs ginger</li>
+                <li>1Ls baking powder</li>
+                <li>1egg</li>
+                <li>150g honey</li>
+                <li>1/2  vanila zest from orange</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Mix the dry ingridients and in a bowl add the butter and sugar ,and beat on hight.
+            Add the egg, honey and vanila,fold the flour mixture and add the orange zest.
+            Refregerate for 1:39 h.
+            Cut into desired shapes andbake for 15-30 mins. 
+        </p>
+        </div>
+            
+        </div>
+    </div>
+   
+    <div class="card category sweets" id="sweets">
+        <div class="card-image"><img src="img/wafe.jpg" alt="cake"></div>
+        <h2 class="h2">Waffles</h2>
+        <p class="par">Crispy on the Outside,Fluffy on the Inside.</p>
+        <button class="btn " data-target="#modal6" id="open">Recipe</button>
+        <div  class="modal" id="modal6">
+            <div class="sus">
+        <div class="title"> Waffles</div>
+        <button class="btn modal-btn" data-target="#modal6" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>240g Flour</li>
+                <li>350ml Milk</li>
+                <li>100g Melted Butter</li>
+                <li>1Ls Vanilla Essence</li>
+                <li>10g Baking Powder</li>
+                <li>3Bs Sugar</li>
+                <li>2 eggs </li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Mix together in a large bowl the flour , sugar, baking powder ,salt, after add the eggs.
+            Add the melted butter , vanilla essence and milk, and whisk together.
+            Pour the batter in the waffle maker and let bake until goldely-brown and crisp.
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category sweets" id="sweets">
+        <div class="card-image"><img src="img/bananaM.jpg" alt="cake"></div>
+        <h2 class="h2">Banana Muffins</h2>
+        <p class="par">A little Cake</p>
+        <button class="btn " data-target="#modal11" id="open">Recipe</button>
+        <div  class="modal" id="modal11">
+            <div class="sus">
+        <div class="title"> Banana Muffins</div>
+        <button class="btn modal-btn" data-target="#modal11" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>250g Flour</li>
+                <li>1Ls Baking Soda</li>
+                <li>1Ls Baking Powder</li>
+                <li>1Ls Vanilla Essence</li>
+                <li>100g Chapped Nuts</li>
+                <li>200g Sugar</li>
+                <li>3 Smashed Banana </li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Preheat oven to 180° C and prepare the muffiny tray.
+            In a
+            a large bowl, mit the flour, sugars, baking soda
+            baking powder, salt, cinnamon and nutmeg.
+            In another boul, mit the melted butter, mashed bananas.
+            eggs
+            and vanilla. Pour the wet ingredients over the dry_
+            ones and mit well. Mix in the chopped nuts,
+            Divide the batter evenly into the muffin tin and bake
+            for 25 mins until beautifullly browned 
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category drinks" id="drinks">
+        <div class="card-image"><img src="img/lemona.jpg" alt="cake"></div>
+        <h2 class="h2">Berry Lemonade</h2>
+        <p class="par">Sweet and fresh</p>
+        <button class="btn " data-target="#modal7" id="open">Recipe</button>
+        <div  class="modal" id="modal7">
+            <div class="sus">
+        <div class="title"> Berry Lemonade</div>
+        <button class="btn modal-btn" data-target="#modal7" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>300g Strwberries</li>
+                <li>10ml lemon juice</li>
+                <li>100g sugar</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>In large saucepan, combine strawberries, sugar, and 2 cups water. Bring to a boil, stirring to dissolve sugar.
+
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category drinks" id="drinks">
+        <div class="card-image"><img src="img/lemonade.jfif" alt="cake"></div>
+        <h2 class="h2">Mint Lemonade</h2>
+        <p class="par">Perfect for summer</p>
+        <button class="btn " data-target="#modal8" id="open">Recipe</button>
+        <div  class="modal" id="modal8">
+            <div class="sus">
+        <div class="title"> Mint Lemonade</div>
+        <button class="btn modal-btn" data-target="#modal8" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>5 mint leaves</li>
+                <li>10ml elderberry syrup</li>
+                <li>5ml lemon juice</li>
+                <li>200ml sparkling water</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Crush mint leaves in the syrup after add lemon juice , add ice and sparkling water ...soo simple </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category drinks" id="drinks">
+        <div class="card-image"><img src="img/mishake.jfif" alt="cake"></div>
+        <h2 class="h2">Milkshake</h2>
+        <p class="par">Sip the Joy, Shake the Flavor</p>
+        <button class="btn " data-target="#modal9" id="open">Recipe</button>
+        <div  class="modal" id="modal9">
+            <div class="sus">
+        <div class="title"> Milkshake</div>
+        <button class="btn modal-btn" data-target="#modal9" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>    
+                <li>250g strawberries/banana</li>
+                <li>150ml milk</li>
+                <li>50g Greek Youghurt</li>
+            </ul>
+            <h2>Instructions</h2>
+        <p>Put strawberries/banana with milk and Youghurt in a mixer .
+        Mix them 2 mins then add some ice cubes .
+        Pour in glasses and you are done .
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="card category cakes" id="cakes">
+        <div class="card-image"><img src="img/strchees.jpg" alt="cake" height="100px"></div>
+        <h2 class="h2">Strawberry Cheesecake</h2>
+        <p class="par">Fresh and fast taste</p>
+        <button class="btn " data-target="#modal10" id="open">Recipe</button>
+        <div  class="modal" id="modal10">
+            <div class="sus">
+        <div class="title"> Strawberry Cheesecake</div>
+        <button class="btn modal-btn" data-target="#modal10" >&times;</button>
+            </div> 
+            <div class="center">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>400g Biscuits</li>
+                <li>150g Melted Butter</li>
+                <li>600g Cream Cheese</li>
+                <li>500ml Whipping Cream</li>
+                <li>150g Sugar Powder</li>
+                <li>100ml Cold Water</li>
+                <li> 20g Gellatin</li>
+                <li>1 Bs Vanilla Essence</li>
+                <li> 100ml Hot Milk</li>
+                
+            </ul>
+            <h2>Instructions</h2>
+        <p>Crush the biscuits in a food processor .add the melted butter and mix well.
+            For the crust , put the biscuits in a springform pan and compact it. put in the fridge for aprox 30 mins.
+            For the filling . soak the gelatin in the cold water, mix and let it soak,then put it in the hot milk and stir to dissolve.
+            In the bowl of a mixer, put the cream cheese, powdered sugar
+            and vanilla essence and mit well. Then add the whipping
+            cream, increase the speed and mit the cream for 5 mins. Reduce
+            the speed and add the mith and gelatin mixture, then increase
+            the speed
+            again
+            Wash the fresh strawberries and cut them in halves. Arrange
+            them all around the pan, then add the filling and spread it
+            evenly. Put It in the fridge for 5-6 hrs. or overnight
+            in a saucepan.
+            For the jelly soak the gillatin for 5 mins. But the strawberis
+            and add the sugar, then let it simmer for 5 mins. Smash the
+            strawberries into a puree and let it coolfors min. then add the gelatin
+            Pour it over the cake and put in the fridge for girot 2-3 hrs
+        </p>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+<div id="overlay"></div>
+</section>
+
+
+
+
+    <script src="java.js"></script>
+</body>
+</html>

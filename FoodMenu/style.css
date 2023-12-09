@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dhurjati&family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=Whisper&display=swap");
+
+:root {
+  --main-color: orange;
+  --black: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transform: 0.2s linear;
+}
+body {
+  background: #fed9ed;
+}
+
+html {
+  font-size: 63%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+  font-family: "Ephesis", cursive;
+}
+
+.header {
+  background-color: #fed9ed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: 100px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-family: "Ephesis", cursive;
+}
+
+.header .logo img {
+  height: 120px;
+  padding: 5px;
+}
+.header .navbar a {
+  position: relative;
+  right: 5%;
+  margin: 10px;
+  flex-wrap: nowrap;
+  position: center;
+  align-self: center;
+  color: #ff8f8f;
+}
+
+.btn-sign {
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 1px;
+  width: 80px;
+  height: auto;
+  background-color: #ff90bc;
+  color: #693636;
+  font-family: "Ephesis", cursive;
+}
+.sidebar {
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  height: 100%;
+  left: 0;
+  background-color: #fed9ed;
+  width: 80px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 200x 35px grey;
+}
+
+#a {
+  position: relative;
+  color: #ff8f8f;
+  font-size: 20px;
+  display: table;
+  width: 30px;
+  padding: 10px 10px;
+  top: 100px;
+}
+
+.fas {
+  position: relative;
+  width: 50px;
+  height: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content-box {
+  box-sizing: border-box;
+  max-width: 1000px;
+  width: auto;
+  height: auto;
+  margin-left: 80px;
+  justify-content: center;
+  padding: 10px 35px;
+  background-color: #fed9ed;
+}
+.card {
+  display: inline-block;
+  background: #ff90bc;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.card-image {
+  height: 50px;
+
+  margin-bottom: 15px;
+}
+.h2 {
+  padding-top: 5px;
+  font-size: 10px;
+}
+.par {
+  font-size: 7px;
+}
+
+img {
+  width: 100%;
+  height: 70px;
+}
+
+#open {
+  position: absolute;
+  left: 30%;
+  top: 85%;
+  width: auto;
+  height: 15px;
+  padding: 1px;
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+/* Modal section  */
+
+.modal-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+.modal {
+  width: 300px;
+  position: fixed;
+  top: -50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  transition: top 0.5s ease-in-out;
+  background-color: #f8dfd4;
+  font-family: "Hedvig Letters Serif", serif;
+  z-index: 2;
+  font-size: 10px;
+}
+.modal.active {
+  top: 40%;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+.sus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: rgb(0, 0, 0, 0.03);
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.center {
+  padding: 1rem;
+}
+li {
+  list-style-type: none;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+#overlay.active {
+  display: block;
+}
+
+/* Modal section  */
+.nav-item {
+  position: relative;
+  margin-left: 10px;
+}
+.sidebar:hover {
+  width: 80px;
+  transition: all 0.5s ease;
+}
+
+#a:hover {
+  background: #dc8686;
+}
+
+.btn-sign:hover {
+  color: red;
+  background-color: #ff8f8f;
+}
+
+#fod {
+  color: #a6cf98;
+}
+#cak {
+  color: #ff8f8f;
+}
+
+#swe {
+  color: #ff9130;
+}
+
+#dri {
+  color: #87c4ff;
+}
+
+#food {
+  background: #a6cf98;
+}
+
+#sweets {
+  background: #ff9130;
+}
+
+#drinks {
+  background: #87c4ff;
+}
+#cakes {
+  background: #ff8f8f;
+}
